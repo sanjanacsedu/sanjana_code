@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.attendance.student.itu.studentattendance" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/attendance"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SignInActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ClassListActivity"
+            android:label="@string/title_activity_class_list" >
+        </activity>
+        <activity
+            android:name=".ClassDetails"
+            android:label="@string/title_activity_class_details" >
+        </activity>
+        <activity
+            android:name=".SignedUpClassList"
+            android:label="@string/title_activity_signed_up_class_list" >
+        </activity>
+        <activity
+            android:name=".QRCode_SignUpClass"
+            android:label="@string/title_activity_qrcode__sign_up_class" >
+        </activity>
+        <activity
+            android:name=".AvailableClassList"
+            android:label="@string/title_activity_available_class_list" >
+        </activity>
+        <activity
+            android:name=".AllClassList"
+            android:label="@string/title_activity_all_class_list" >
+        </activity>
+        <activity
+            android:name=".AllAvailableClassList"
+            android:label="@string/title_activity_all_available_class_list" >
+        </activity>
+        <activity
+            android:name=".AllSignedUpClassList"
+            android:label="@string/title_activity_all_signed_up_class_list" >
+        </activity>
+        <activity
+            android:name=".CameraActivity"
+            android:label="@string/title_activity_camera" >
+        </activity>
+        <activity
+            android:name=".DoneActivity"
+            android:label="@string/title_activity_done" >
+        </activity>
+        <activity
+            android:name=".NotDoneActivity"
+            android:label="@string/title_activity_not_done" >
+        </activity>
+    </application>
+
+</manifest>

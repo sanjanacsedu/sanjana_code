@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Student Attendance</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login_page">Login Page!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sign_out">Sign out</string>
+    <string name="title_activity_class_list">ClassListActivity</string>
+    <string name="title_activity_class_details">ClassDetails</string>
+    <string name="title_activity_class_list_activity1">ClassListActivity1</string>
+    <string name="title_activity_tab1">Tab1Activity</string>
+    <string name="title_activity_tab2">Tab2Activity</string>
+    <string name="title_activity_tab3">Tab3Activity</string>
+    <string name="title_activity_enrolled_only_class_list">EnrolledOnlyClassList</string>
+    <string name="title_activity_signed_up_class_list">SignedUpClassList</string>
+    <string name="title_activity_qrcode__sign_up_class">QRCode_SignUpClass</string>
+    <string name="title_activity_class_detail">ClassDetailActivity</string>
+    <string name="title_activity_custom__registered__class__list">Registered_Class_List</string>
+    <string name="title_activity_custom__available__class__list">Available Class List to Register</string>
+    <string name="title_activity_available_class_list">AvailableClassList</string>
+    <string name="title_activity_all_class_list">AllClassList</string>
+    <string name="title_activity_all_available_class_list">AllAvailableClassList</string>
+    <string name="title_activity_all_signed_up_class_list">AllSignedUpClassList</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_done">DoneActivity</string>
+    <string name="title_activity_not_done">NotDoneActivity</string>
+
+</resources>
